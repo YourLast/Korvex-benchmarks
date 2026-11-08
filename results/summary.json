@@ -1,0 +1,22 @@
+{
+ "n": 200,
+ "missing": 0,
+ "score": 87.2,
+ "ci95_boot": [
+  83.0,
+  91.2
+ ],
+ "ineligible_both_major": 2,
+ "grounded_rate": {
+  "gemini": 89.5,
+  "gpt5": 86.0
+ },
+ "grounding_agree_pct": 89.5,
+ "gemini1_gpt0": 14,
+ "gemini0_gpt1": 7,
+ "judges_disagree_on_grounding": 21,
+ "bootstrap": {
+  "seed": 20261104,
+  "B": 10000
+ }
+}
