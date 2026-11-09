@@ -2,7 +2,7 @@
 
 Scripts and data to check, or repeat, our measurement of **DSR Etude 0 Preview** on **FACTS Grounding v2**, the Google
 DeepMind benchmark for answers that stay within a document. Our write-up, with the official table next to our number:
-<https://korvexai.site/articles/benchmarks/>. Русская версия этого файла: [README.ru.md](README.ru.md).
+<https://korvexai.site/en/articles/benchmarks/>. Русская версия этого файла: [README.ru.md](README.ru.md).
 
 ## Result
 

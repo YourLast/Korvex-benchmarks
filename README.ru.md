@@ -2,7 +2,7 @@
 
 Скрипты и данные, чтобы проверить или повторить наш замер **DSR Etude 0 Preview** на **FACTS Grounding v2** — бенчмарке
 Google DeepMind о том, держатся ли ответы в рамках документа. Наша статья, где рядом с нашей цифрой стоит официальная таблица:
-<https://korvexai.site/articles/benchmarks/>. English version: [README.md](README.md).
+<https://korvexai.site/ru/articles/benchmarks/>. English version: [README.md](README.md).
 
 ## Результат
 
