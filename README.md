@@ -45,11 +45,12 @@ by the document. An answer that fails the task itself scores 0 before the facts 
 
 If you repeat the measurement through the public API, three more things apply:
 
-* **Max is currently unavailable through the API.** The max level is temporarily closed in the public API: it is too
-  expensive for our servers. A request with `"reasoning_effort": "max"` gets a 400 `reasoning_effort_unavailable` error.
-  Re-scoring our published answers (step 5) gives 87.2% without the API. A fresh run through the API is possible at `xhigh`
-  for now (`--effort xhigh`); its numbers are not comparable with ours (Max).
-  Numbers obtained at another level are not comparable with ours.
+* **Max is currently unavailable through the API.** Our inference capacity is limited, and max is the most expensive
+  level for the server: under a large flow of requests the load grows sharply, and delays and queues appear. To keep the
+  service available to everyone, we have temporarily switched max off in the public API. A request with
+  `"reasoning_effort": "max"` gets a 400 `reasoning_effort_unavailable` error. Re-scoring our published answers (step 5)
+  gives 87.2% without the API. A fresh run through the API is possible at `xhigh` for now (`--effort xhigh`); its numbers
+  are not comparable with ours (Max).
 * **The service changes.** The published answers come from the service as it was on 6-7 November 2026. A later run measures
   whatever version is running then.
 * **The API is not the instance we measured on.** We ran a dedicated instance with only the memory tool enabled; a plain API
